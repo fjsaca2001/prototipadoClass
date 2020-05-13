@@ -2,7 +2,7 @@ package Taller1;
 import java.util.Random;
 public class EjemploMedio {
     public static void main(String[] args) {
-        int[] values = random(100);
+        int[] values = random(50);
         for (int i = 0; i < values.length; i++) {
             int index = (values[i] == 80) ? i : -1;
         }

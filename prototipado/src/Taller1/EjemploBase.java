@@ -1,9 +1,8 @@
 package Taller1;
 import java.util.Random;
-
 public class EjemploBase {
     public static void main(String[] args) {
-        int[] values = random(100);
+        int[] values = random(50);
         for (int i = 0; i <10000000; i++) {
             int index = -1;
             for (int j = 0; j < values.length; j++) {
